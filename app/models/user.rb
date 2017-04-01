@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
       elsif user_type == 'admin'
       add_role :admin
       
-      end
+      end 
     end
     
 end
